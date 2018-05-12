@@ -1,0 +1,14 @@
+<title>富文本编辑测试</title>
+<body xmlns:th="http://www.springframework.org/schema/mvc">
+
+<script th:src="@{/static/ueditor/ueditor.config.js}" charset="utf-8"></script>
+<script th:src="@{/static/ueditor/ueditor.all.min.js}" charset="utf-8"></script>
+
+
+<script id="editor" type="text/plain"></script>
+<script>
+    var ue = UE.getEditor('editor', {initialFrameWidth: 500, initialFrameHeight: 300});
+
+
+</script>
+</body>
